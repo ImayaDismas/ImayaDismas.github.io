@@ -982,8 +982,14 @@ span {
   position: absolute;
 }
 .instructions h2{
+    font-size: 64px;
+    font-weight: bolder;
     text-align: center;
-    margin-top: 150px;
-    height: 250px;
-    margin-left:50px; 
+/*    margin-top: 50px;*/
+/*    height: 250px;*/
+    margin-left: 50px;
+}
+.skills{
+    margin-top: -240px;
+    height: 224px;
 }
