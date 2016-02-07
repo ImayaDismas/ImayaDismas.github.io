@@ -21,14 +21,7 @@ body {
     70px 100px;
   
 }
-.content {
-  width: 80vw;
-  max-width: 45em;
-  padding: 1.5em 2em;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, .75);
-  box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
-}
+
 #wrapper {
 /*    margin: 30px auto;*/
 /*	padding: 100px 20px;*/
@@ -51,7 +44,7 @@ body {
     position: relative;
 }
 #topLedShade {
-	width:930px; 
+	width:80%; 
     margin: 0px auto; 
     height: 8px;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(175,175,175,1)), color-stop(100%,rgba(241,241,241,1)));
@@ -61,7 +54,7 @@ body {
 
 	}
 #topLed { 
-	width:930px; margin: 0px auto 2px auto; height: 5px;
+	width:80%; margin: 0px auto 2px auto; height: 5px;
 	background: -webkit-gradient(linear, left top, right top, 
 	color-stop(0%,rgba(241,241,243,1)), 
 	color-stop(1%,rgba(247,247,247,1)), 
@@ -75,7 +68,7 @@ body {
 	border-radius: 1px;
 }
 #keyboard { 
-	width:930px; margin: 0px auto; height: 16px;
+	width:80%; margin: 0px auto; height: 16px;
 	background: -webkit-gradient(linear, left top, right top, 
 	color-stop(0%,rgba(241,241,243,1)), 
 	color-stop(1%,rgba(247,247,247,1)), 
@@ -90,14 +83,14 @@ body {
 	border-bottom:1px #cdcdd3 solid;
 }
 #keyPad {
-	width:140px; margin: -1px auto 0px; height: 11px;
+	width:12%; margin: -1px auto 0px; height: 11px;
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(158,159,166,1)), color-stop(10%,rgba(215,216,220,1)), color-stop(90%,rgba(215,216,220,1)), color-stop(100%,rgba(158,159,166,1)));
 	border-bottom-right-radius: 10% 100%;
 	border-bottom-left-radius: 10% 100%;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.3) inset;
 	}
 #keyboardShade {
-	width:930px; margin: 0px auto; height: 11px;
+	width:80%; margin: 0px auto; height: 11px;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,157,1)), color-stop(100%,rgba(155,155,155,1)));
 	border-bottom-right-radius: 6% 100%;
 	border-bottom-left-radius: 6% 100%;
@@ -107,17 +100,17 @@ body {
 	
 #keyboardTrayShadow { margin-top: -1px; z-index:10px; position: relative;}
 #keyboardShadow { 
-	width:930px; margin: 0px auto; height: 18px;
+	width:80%; margin: 0px auto; height: 18px;
 	background: -moz-linear-gradient(left, rgba(100,100,100,1) 0%, rgba(255,255,255,1) 2%, rgba(255,255,255,1) 2%, rgba(216,215,214,1) 8%, rgba(247,249,247,1) 50%, rgba(219,217,217,1) 93%, rgba(240,241,243,1) 98%, rgba(107,107,107,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(109,110,114,1)), color-stop(3%,rgba(255,255,255,1)), color-stop(8%,rgba(216,215,214,1)), color-stop(50%,rgba(247,249,247,1)), color-stop(93%,rgba(219,217,217,1)), color-stop(98%,rgba(240,241,243,1)), color-stop(100%,rgba(107,107,107,1))); /* Chrome,Safari4+ */
 	box-shadow: 0px -1px 1px rgba(0,0,0,0.3); opacity:0.1;
 }
-#keyboardShadowOverlay { position: absolute ; width:930px; left: 25px; top:20px; height: 20px; 
+#keyboardShadowOverlay { position: absolute ; width:80%; left: 25px; top:20px; height: 20px; 
 	background: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(255,2555,255,1));
 	background: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(255,2555,255,1));
 	} 
 #keyboardShadeShadow {
-	width:930px; margin: 0px auto; height: 10px;
+	width:80%; margin: 0px auto; height: 10px;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(225,225,225,0.2));
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(225,225,225,0.2));
 	border-top-right-radius: 8% 100%;
